@@ -1,0 +1,52 @@
+// In demo.js i got a bug
+
+ const [text, setText] = useState(0);
+
+ f1
+
+ const prime = () => {
+    console.log("Rerendering prime");
+    return findNthPrime(text);
+  };
+
+f2
+
+ const prime = (text) => {
+    console.log("Rerendering prime");
+    return findNthPrime(text);
+  };
+
+why f1 works but f2 not
+
+In the code you provided, it seems you have two functions named prime, one without any parameters (f1) and the other with a text parameter (f2). 
+The key difference between the two functions is that f1 uses the text variable from the outer scope, while f2 takes text as a parameter.
+
+The reason why f1 works while f2 does not can be attributed to the context in which these functions are used. Let's break down the differences:
+
+f1:
+const prime = () => {
+    console.log("Rerendering prime");
+    return findNthPrime(text);
+};
+In f1, you are using the text variable without passing it as a parameter to the prime function. 
+This means that prime relies on the text variable from the outer scope, which is probably defined using useState. 
+If the text variable changes due to a state update (e.g., calling setText with a new value), it will trigger a re-render of the component, 
+and the prime function will capture the updated value of text when executed. 
+This is because functions in JavaScript have access to variables from their containing scopes (closures).
+
+
+f2:
+
+const prime = (text) => {
+    console.log("Rerendering prime");
+    return findNthPrime(text);
+};
+In f2, text is a parameter of the function. 
+This means that the function prime expects you to pass a value for text when you call it, like prime(someValue). 
+It doesn't rely on any external text variable from the outer scope. If you call f2 without passing a value for text, 
+it will not work as expected because it doesn't automatically capture the value from the outer scope.
+
+So, whether f1 or f2 works depends on how you intend to use them and where the text value is coming from. 
+If text is supposed to come from an external source, f1 may be the more appropriate option. 
+If you want to explicitly pass the text value as an argument to the function, then f2 is the way to go.
+
