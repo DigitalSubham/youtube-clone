@@ -6,6 +6,10 @@ const SearchBar = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [showSuggestion, setShowSuggestion] = useState(false);
 
+  // const searchValue = (value) => {
+  //   console.log(value);
+  // };
+
   return (
     <>
       <div>
@@ -22,11 +26,18 @@ const SearchBar = () => {
         />
 
         <button className="cursor-pointer border border-gray-300 px-5 py-3 bg-gray-100 rounded-r-3xl">
-          <IoIosSearch />
+          <a href={`/results?search_query=${searchQuery}`}>
+            <IoIosSearch />
+          </a>
         </button>
       </div>
       <div>
-        {showSuggestion && <SearchSuggestions searchQuery={searchQuery} />}
+        {showSuggestion && (
+          <SearchSuggestions
+            searchQuery={searchQuery}
+            // searchValue={searchValue}
+          />
+        )}
       </div>
     </>
   );

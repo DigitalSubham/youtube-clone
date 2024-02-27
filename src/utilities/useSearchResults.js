@@ -22,7 +22,7 @@ const useSearchResults = () => {
     const json = await data.json();
     setSearchResultVideo(json.items);
   };
-  return { searchResultVideo, getsearchResultVideo };
+  return { searchResultVideo };
 };
 
 export default useSearchResults;

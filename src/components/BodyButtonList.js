@@ -24,7 +24,7 @@ const list = [
 
 const BodyButtonList = () => {
   return (
-    <div className="flex fixed overflow-x-auto w-full pl-40 mt-16">
+    <div className="flex overflow-x-auto w-[80%]  ml-48 no-scrollbar">
       <div className="flex bg-white">
         {list.map((item, index) => {
           return <BodyButton className=" " key={index} name={item} />;

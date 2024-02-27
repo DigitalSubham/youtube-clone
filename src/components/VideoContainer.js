@@ -8,7 +8,7 @@ const VideoContainer = () => {
   const homePageVideo = useHomeVideo();
 
   return (
-    <div className=" flex pl-40 pt-40 flex-wrap">
+    <div className=" flex pl-40  flex-wrap">
       {homePageVideo?.length > 0 && <AdVideoCard info={homePageVideo[0]} />}
 
       {homePageVideo?.map((video) => {

@@ -10,7 +10,7 @@ const MainContainer = () => {
     dispatch(openMenu());
   }, [dispatch]);
   return (
-    <div className="overflow-x-auto	">
+    <div className="overflow-x-auto mt-20">
       <BodyButtonList />
       <Outlet />
     </div>

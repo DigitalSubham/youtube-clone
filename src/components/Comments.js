@@ -2,92 +2,92 @@ import React from "react";
 
 const commentsData = [
   {
-    name: "Akshay Saini",
+    name: "Subham",
     text: "Nice Course",
     repiles: [
       {
-        name: "Akshay Saini",
+        name: "Subham",
         text: "Nice Course",
         repiles: [],
       },
       {
-        name: "Akshay Saini",
+        name: "Subham",
         text: "Nice Course",
         repiles: [],
       },
       {
-        name: "Akshay Saini",
+        name: "Subham",
         text: "Nice Course",
         repiles: [
           {
-            name: "Akshay Saini",
+            name: "Subham",
             text: "Nice Course",
             repiles: [],
           },
           {
-            name: "Akshay Saini",
+            name: "Subham",
             text: "Nice Course",
             repiles: [],
           },
           {
-            name: "Akshay Saini",
+            name: "Subham",
             text: "Nice Course",
             repiles: [],
           },
           {
-            name: "Akshay Saini",
+            name: "Subham",
             text: "Nice Course",
             repiles: [
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [],
               },
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [],
               },
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [],
               },
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [
                   {
-                    name: "Akshay Saini",
+                    name: "Subham",
                     text: "Nice Course",
                     repiles: [],
                   },
                   {
-                    name: "Akshay Saini",
+                    name: "Subham",
                     text: "Nice Course",
                     repiles: [
                       {
-                        name: "Akshay Saini",
+                        name: "Subham",
                         text: "Nice Course",
                         repiles: [
                           {
-                            name: "Akshay Saini",
+                            name: "Subham",
                             text: "Nice Course",
                             repiles: [
                               {
-                                name: "Akshay Saini",
+                                name: "Subham",
                                 text: "Nice Course",
                                 repiles: [
                                   {
-                                    name: "Akshay Saini",
+                                    name: "Subham",
                                     text: "Nice Course",
                                     repiles: [
                                       {
-                                        name: "Akshay Saini",
+                                        name: "Subham",
                                         text: "Nice Course",
                                         repiles: [
                                           {
-                                            name: "Akshay Saini",
+                                            name: "Subham",
                                             text: "Nice Course",
                                             repiles: [],
                                           },
@@ -112,53 +112,53 @@ const commentsData = [
     ],
   },
   {
-    name: "Akshay Saini",
+    name: "Subham",
     text: "Nice Course",
     repiles: [],
   },
   {
-    name: "Akshay Saini",
+    name: "Subham",
     text: "Nice Course",
     repiles: [],
   },
 
   {
-    name: "Akshay Saini",
+    name: "Subham",
     text: "Nice Course",
     repiles: [],
   },
   {
-    name: "Akshay Saini",
+    name: "Subham",
     text: "Nice Course",
     repiles: [
       {
-        name: "Akshay Saini",
+        name: "Subham",
         text: "Nice Course",
         repiles: [
           {
-            name: "Akshay Saini",
+            name: "Subham",
             text: "Nice Course",
             repiles: [
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [],
               },
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [],
               },
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [
                   {
-                    name: "Akshay Saini",
+                    name: "Subham",
                     text: "Nice Course",
                     repiles: [
                       {
-                        name: "Akshay Saini",
+                        name: "Subham",
                         text: "Nice Course",
                         repiles: [],
                       },
@@ -167,7 +167,7 @@ const commentsData = [
                 ],
               },
               {
-                name: "Akshay Saini",
+                name: "Subham",
                 text: "Nice Course",
                 repiles: [],
               },
